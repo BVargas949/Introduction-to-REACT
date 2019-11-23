@@ -1,6 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar';
-export default () => (<Navbar />)
-
-
+​
+/**
+ * CONTENT OF APP COMPONENT
+ */
+export default () => {
+    return(
+        <Navbar title="Mango Airlines"/>
+    )
+};
 
